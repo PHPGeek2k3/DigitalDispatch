@@ -74,7 +74,6 @@
         "kris/laravel-form-builder": "dev-master",
         "laracasts/flash": "^3.0",
         "laracasts/utilities": "^3.0",
-        "laravel/tinker": "^1.0",
         "laravelcollective/html": "^5.4.0",
         "laravolt/avatar": "^2.0",
         "letsdrink/ouzo-goodies": "^1.6",
@@ -109,7 +108,6 @@
         "filp/whoops": "^2.0",
         "mockery/mockery": "^1.0",
         "nunomaduro/collision": "^2.0",
-        "phpunit/phpunit": "^7.0",
         "barryvdh/laravel-debugbar": "^3.1",
         "phpunit/phpunit": "^6.0",
         "symfony/thanks": "^1.0"

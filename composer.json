@@ -69,7 +69,6 @@
         "cybercog/laravel-ownership": "^5.0",
         "edvinaskrucas/settings": "^2.0",
         "genealabs/laravel-model-caching": "^0.2.42",
-        "fideloper/proxy": "~4.0",
         "hipsterjazzbo/landlord": "dev-master",
         "josegonzalez/dotenv": "^3.2",
         "kris/laravel-form-builder": "dev-master",

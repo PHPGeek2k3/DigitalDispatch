@@ -87,6 +87,7 @@ return array(
     'App\\Roles' => $baseDir . '/app/Roles.php',
     'App\\ServiceRequestContacts' => $baseDir . '/app/ServiceRequestContacts.php',
     'App\\ServiceRequestLogs' => $baseDir . '/app/ServiceRequestLogs.php',
+    'App\\ServiceRequestNotes' => $baseDir . '/app/ServiceRequestNotes.php',
     'App\\ServiceRequestTypes' => $baseDir . '/app/ServiceRequestTypes.php',
     'App\\ServiceRequestVehicles' => $baseDir . '/app/ServiceRequestVehicles.php',
     'App\\ServiceRequests' => $baseDir . '/app/ServiceRequests.php',

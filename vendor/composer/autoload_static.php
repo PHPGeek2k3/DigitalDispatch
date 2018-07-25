@@ -913,6 +913,7 @@ class ComposerStaticInit1cee80627f3aa969eba90f1e00a7f743
         'App\\Roles' => __DIR__ . '/../..' . '/app/Roles.php',
         'App\\ServiceRequestContacts' => __DIR__ . '/../..' . '/app/ServiceRequestContacts.php',
         'App\\ServiceRequestLogs' => __DIR__ . '/../..' . '/app/ServiceRequestLogs.php',
+        'App\\ServiceRequestNotes' => __DIR__ . '/../..' . '/app/ServiceRequestNotes.php',
         'App\\ServiceRequestTypes' => __DIR__ . '/../..' . '/app/ServiceRequestTypes.php',
         'App\\ServiceRequestVehicles' => __DIR__ . '/../..' . '/app/ServiceRequestVehicles.php',
         'App\\ServiceRequests' => __DIR__ . '/../..' . '/app/ServiceRequests.php',

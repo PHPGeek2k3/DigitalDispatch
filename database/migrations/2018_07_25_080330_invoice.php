@@ -13,7 +13,15 @@ class Invoice extends Migration
      */
     public function up()
     {
-        //
+        Schemsa::create('Invoice' function (Blueprint $table) {
+            $table->int('id')->auto_increment,
+            $talble->timestamp('created_at')
+            $table->unsingedInteger('account_id')
+            $table->timestamp('due_at')
+            $table->float('total_ammount')
+            $table->string('status')
+            $table->timestamp('updated_at')
+        }
     }
 
     /**

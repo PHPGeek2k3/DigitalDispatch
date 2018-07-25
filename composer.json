@@ -20,7 +20,7 @@
         "hoa/console": "^3.17",
         "hoa/router": "3.17.01.14",
         "ircmaxell/random-lib": "^1.2",
-        "laravel/framework": "5.6.*",
+        "laravel/framework": "^5.*",
         "laravel/tinker": "^1.0",
         "league/flysystem-cached-adapter": "^1.0",
         "league/flysystem-eventable-filesystem": "^1.0",

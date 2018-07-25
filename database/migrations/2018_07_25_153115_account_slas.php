@@ -13,7 +13,13 @@ class AccountSlas extends Migration
      */
     public function up()
     {
-        //
+        Schema::create('AccountSlas', function (Blueprint $table) {
+            $table->int('id')->autoincrement;
+            $table->string('name', 50);
+            $table->('starts_at');
+            $table->('ends_at');
+            $table->int('allowed_time');
+        });
     }
 
     /**
@@ -23,6 +29,6 @@ class AccountSlas extends Migration
      */
     public function down()
     {
-        //
+        Schema::dropIfExists('AccountSlas');
     }
 }

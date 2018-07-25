@@ -15,13 +15,17 @@ class Invoice extends Migration
     {
         Schemsa::create('Invoice' function (Blueprint $table) {
             $table->int('id')->auto_increment,
-            $talble->timestamp('created_at')
-            $table->unsingedInteger('account_id')
-            $table->timestamp('due_at')
-            $table->float('total_ammount')
-            $table->string('status')
-            $table->timestamp('updated_at')
-        }
+            $table->unsingedInteger('account_id');
+            $table->timestamp('due_at');
+            $table->timestamp('sent_at');
+            $table->float('total_ammount' 8,2);
+            $table->float('outstanding' 8,2);
+            $table->boolean('paid_in_full');
+            $table->foriegn('account_id')->references('id')->on('Accounts')->onDelete('cascade');
+            $table->timestamps();
+            $table->primary('id');
+            $table->index('account_id');
+        });
     }
 
     /**
@@ -31,6 +35,6 @@ class Invoice extends Migration
      */
     public function down()
     {
-        //
+        Schema:dropIfExists('Invoice');
     }
 }

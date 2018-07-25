@@ -60,7 +60,6 @@
         "twilio/sdk": "^5.1",
         "barryvdh/laravel-ide-helper": "^2.0",
         "phpmailer": "^5.2",
-        "barryvdh/laravel-snappy": "^0.3.1",
         "h4cc/wkhtmltoimage-amd64": "^0.12.0",
         "h4cc/wkthmltopdf-amd64": "^0.12.0",
         "arrilot/laravel-widgets": "^3.8",

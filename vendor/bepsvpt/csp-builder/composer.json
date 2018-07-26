@@ -1,0 +1,36 @@
+{
+  "name": "bepsvpt/csp-builder",
+  "description":  "Easily add and update Content-Security-Policy headers for your project",
+  "keywords": ["content-security-policy", "csp", "http", "headers", "security", "xss"],
+  "homepage": "https://github.com/BePsvPT/csp-builder",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Paragon Initiative Enterprises",
+      "email": "security@paragonie.com",
+      "homepage": "https://paragonie.com",
+      "role": "Owner"
+    },
+    {
+      "name": "BePsvPT",
+      "email": "freedom@csie.io"
+    }
+  ],
+  "require": {
+    "php": "^7.0"
+  },
+  "require-dev": {
+    "codeclimate/php-test-reporter": "0.4.*",
+    "doctrine/instantiator": "1.0.*",
+    "phpunit/phpunit": "5.7.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Bepsvpt\\CSPBuilder\\": "src"
+    }
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "sort-packages": true
+  }
+}

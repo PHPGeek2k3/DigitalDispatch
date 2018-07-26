@@ -1,0 +1,36 @@
+{
+  "name": "bepsvpt/hpkp-builder",
+  "description": "Easily integrate HTTP Public-Key-Pinning headers into your application.",
+  "keywords": ["Security", "HPKP", "security headers", "headers", "Hypertext", "public key pinning", "public key"],
+  "homepage": "https://github.com/BePsvPT/hpkp-builder",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Paragon Initiative Enterprises",
+      "email": "info@paragonie.com",
+      "homepage": "https://paragonie.com",
+      "role": "Development Team"
+    },
+    {
+      "name": "BePsvPT",
+      "email": "freedom@csie.io"
+    }
+  ],
+  "require": {
+    "php": "^7.0"
+  },
+  "require-dev": {
+    "codeclimate/php-test-reporter": "0.4.*",
+    "doctrine/instantiator": "1.0.*",
+    "phpunit/phpunit": "5.7.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Bepsvpt\\HPKPBuilder\\": "src"
+    }
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "sort-packages": true
+  }
+}

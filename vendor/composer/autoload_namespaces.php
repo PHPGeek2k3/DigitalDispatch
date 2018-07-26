@@ -7,6 +7,7 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'josegonzalez\\Dotenv' => array($vendorDir . '/josegonzalez/dotenv/src', $vendorDir . '/josegonzalez/dotenv/tests'),
+    'Twig_' => array($vendorDir . '/twig/twig/lib'),
     'Svg\\' => array($vendorDir . '/phenx/php-svg-lib/src'),
     'Sentry\\SentryLaravel\\' => array($vendorDir . '/sentry/sentry-laravel/src'),
     'SecurityLib' => array($vendorDir . '/ircmaxell/security-lib/lib'),
@@ -15,6 +16,7 @@ return array(
     'RandomLib' => array($vendorDir . '/ircmaxell/random-lib/lib'),
     'ProxyManager\\' => array($vendorDir . '/ocramius/proxy-manager/src'),
     'Prophecy\\' => array($vendorDir . '/phpspec/prophecy/src'),
+    'Propel' => array($vendorDir . '/propel/propel/src'),
     'PayPal' => array($vendorDir . '/paypal/rest-api-sdk-php/lib'),
     'Parsedown' => array($vendorDir . '/erusev/parsedown'),
     'Pagerfanta\\' => array($vendorDir . '/pagerfanta/pagerfanta/src'),

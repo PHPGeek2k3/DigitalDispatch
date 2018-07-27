@@ -14,7 +14,6 @@ return array(
     'Sabberworm\\CSS' => array($vendorDir . '/sabberworm/php-css-parser/lib'),
     'Raven_' => array($vendorDir . '/sentry/sentry/lib'),
     'RandomLib' => array($vendorDir . '/ircmaxell/random-lib/lib'),
-    'ProxyManager\\' => array($vendorDir . '/ocramius/proxy-manager/src'),
     'Prophecy\\' => array($vendorDir . '/phpspec/prophecy/src'),
     'Propel' => array($vendorDir . '/propel/propel/src'),
     'PayPal' => array($vendorDir . '/paypal/rest-api-sdk-php/lib'),

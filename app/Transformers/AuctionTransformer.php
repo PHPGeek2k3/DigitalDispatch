@@ -4,6 +4,9 @@ namespace App\Transformers;
 
 use League\Fractal\TransformerAbstract;
 use App\Auction;
+use App\AuctionVehciles;
+use App\AuctionBids;
+
 
 class AuctionTransformer extends TransformerAbstract
 {

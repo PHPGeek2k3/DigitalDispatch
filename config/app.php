@@ -156,7 +156,6 @@ return [
         Krucas\Settings\Providers\SettingsServiceProvider::class,
         Bnb\Laravel\Attachments\AttachmentsServiceProvider::class,
         Laracasts\Flash\FlashServiceProvider::class,
-        Laracasts\Utilities\JavaScript\JavaScriptServiceProvider,
         MaddHatter\LaravelFullcalendar\ServiceProvider::class,
         Yajra\DataTables\ButtonsServiceProvider::class,
         Yajra\DataTables\EditorServiceProvider::class,

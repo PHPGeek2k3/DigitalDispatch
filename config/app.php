@@ -155,6 +155,14 @@ return [
         Cog\Flag\Providers\FlagServiceProvider::class,
         Krucas\Settings\Providers\SettingsServiceProvider::class,
         Bnb\Laravel\Attachments\AttachmentsServiceProvider::class,
+        Laracasts\Flash\FlashServiceProvider::class,
+        Laracasts\Utilities\JavaScript\JavaScriptServiceProvider,
+        MaddHatter\LaravelFullcalendar\ServiceProvider::class,
+        Yajra\DataTables\ButtonsServiceProvider::class,
+        Yajra\DataTables\EditorServiceProvider::class,
+        Yajra\DataTables\FractalServiceProvider::class,
+        Yajra\DataTables\HtmlServiceProvider::class,
+
 
         /*
          * Application Service Providers...
@@ -215,6 +223,7 @@ return [
         'View' => Illuminate\Support\Facades\View::class,
         'Avatar' => Laravolt\Avatar\Facade::class,
         'Settings' => Krucas\Settings\Facades\Settings::class,
+        'Calendar' => MaddHatter\LaravelFullcalendar\Facades\Calendar::class,
     ],
 
 ];

@@ -13,7 +13,11 @@ class AccountTypes extends Migration
      */
     public function up()
     {
-        //
+        Schema::create('account_types', function (Blueprint $table) {
+           $table->inrements('id');
+           $table->string('name');
+           $table->text('description', 100);
+        });
     }
 
     /**
@@ -23,6 +27,6 @@ class AccountTypes extends Migration
      */
     public function down()
     {
-        //
+        Schema::dropIfExists('account_types');
     }
 }

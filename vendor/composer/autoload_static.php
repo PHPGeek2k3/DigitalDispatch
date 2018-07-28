@@ -1400,6 +1400,7 @@ class ComposerStaticInit1cee80627f3aa969eba90f1e00a7f743
         'App\\VendorTypes' => __DIR__ . '/../..' . '/app/VendorTypes.php',
         'App\\Vendors' => __DIR__ . '/../..' . '/app/Vendors.php',
         'App\\Zones' => __DIR__ . '/../..' . '/app/Zones.php',
+        'App\\create_account_services_table' => __DIR__ . '/../..' . '/app/create_account_services_table.php',
         'App\\vendor_invoices' => __DIR__ . '/../..' . '/app/vendor_invoices.php',
         'App\\vendor_payments' => __DIR__ . '/../..' . '/app/vendor_payments.php',
         'AppendTask' => __DIR__ . '/..' . '/phing/phing/classes/phing/tasks/system/AppendTask.php',

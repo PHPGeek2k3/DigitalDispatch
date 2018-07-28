@@ -164,6 +164,7 @@ return array(
     'App\\VendorTypes' => $baseDir . '/app/VendorTypes.php',
     'App\\Vendors' => $baseDir . '/app/Vendors.php',
     'App\\Zones' => $baseDir . '/app/Zones.php',
+    'App\\create_account_services_table' => $baseDir . '/app/create_account_services_table.php',
     'App\\vendor_invoices' => $baseDir . '/app/vendor_invoices.php',
     'App\\vendor_payments' => $baseDir . '/app/vendor_payments.php',
     'AppendTask' => $vendorDir . '/phing/phing/classes/phing/tasks/system/AppendTask.php',

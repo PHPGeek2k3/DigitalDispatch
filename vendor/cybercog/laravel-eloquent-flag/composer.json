@@ -1,0 +1,83 @@
+{
+    "name": "cybercog/laravel-eloquent-flag",
+    "description": "Laravel Eloquent boolean & timestamp flagged attributes behavior.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "cybercog",
+        "cog",
+        "laravel",
+        "trait",
+        "scopes",
+        "flag",
+        "state",
+        "status",
+        "boolean",
+        "timestamp",
+        "accepted",
+        "unaccepted",
+        "active",
+        "activated",
+        "deactivated",
+        "inactive",
+        "kept",
+        "unkept",
+        "published",
+        "unpublished",
+        "verified",
+        "unverified",
+        "persisted",
+        "approved",
+        "unapproved",
+        "toggle",
+        "closed",
+        "opened",
+        "expiry",
+        "expired",
+        "ended"
+    ],
+    "authors": [
+        {
+            "name": "Anton Komarev",
+            "email": "a.komarev@cybercog.su",
+            "homepage": "http://ell.folio.su",
+            "role": "Developer"
+        }
+    ],
+    "homepage": "https://github.com/cybercog/laravel-eloquent-flag",
+    "support": {
+        "email": "open@cybercog.su",
+        "issues": "https://github.com/cybercog/laravel-eloquent-flag/issues",
+        "wiki": "https://github.com/cybercog/laravel-eloquent-flag/wiki",
+        "source": "https://github.com/cybercog/laravel-eloquent-flag",
+        "docs": "https://github.com/cybercog/laravel-eloquent-flag/wiki"
+    },
+    "require": {
+        "php": "^5.6|^7.0",
+        "illuminate/database": "~5.2.0|~5.3.0|~5.4.0|~5.5.0|~5.6.0"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^2.10",
+        "orchestra/database": "~3.4.0|~3.5.0|~3.6.0",
+        "orchestra/testbench": "~3.4.0|~3.5.0|~3.6.0",
+        "phpunit/phpunit": "^5.7|^6.2|^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Cog\\Flag\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Cog\\Tests\\Flag\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable" : true
+}

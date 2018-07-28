@@ -28,6 +28,7 @@ return array(
     'Laracasts\\Flash' => array($vendorDir . '/laracasts/flash/src'),
     'Krucas\\Settings\\' => array($vendorDir . '/edvinaskrucas/settings/src'),
     'Kris\\LaravelFormBuilder' => array($vendorDir . '/kris/laravel-form-builder/src'),
+    'JpGraph' => array($vendorDir . '/jpgraph/jpgraph/lib'),
     'JakubOnderka\\PhpConsoleHighlighter' => array($vendorDir . '/jakub-onderka/php-console-highlighter/src'),
     'JakubOnderka\\PhpConsoleColor' => array($vendorDir . '/jakub-onderka/php-console-color/src'),
     'HTMLPurifier' => array($vendorDir . '/ezyang/htmlpurifier/library'),

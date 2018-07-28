@@ -139,7 +139,7 @@ return [
         Illuminate\Notifications\NotificationServiceProvider::class,
         Illuminate\Pagination\PaginationServiceProvider::class,
         Illuminate\Pipeline\PipelineServiceProvider::class,
-        Illuminate\Queue\QueueServiceProvider::class,s
+        Illuminate\Queue\QueueServiceProvider::class,
         Illuminate\Redis\RedisServiceProvider::class,
         Illuminate\Auth\Passwords\PasswordResetServiceProvider::class,
         Illuminate\Session\SessionServiceProvider::class,
@@ -153,6 +153,8 @@ return [
         Laravolt\Avatar\ServiceProvider::class,
         Cog\Laravel\Ownership\Providers\OwnershipServiceProvider::class,
         Cog\Flag\Providers\FlagServiceProvider::class,
+        Krucas\Settings\Providers\SettingsServiceProvider::class,
+        Bnb\Laravel\Attachments\AttachmentsServiceProvider::class,
 
         /*
          * Application Service Providers...
@@ -212,6 +214,7 @@ return [
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
         'Avatar' => Laravolt\Avatar\Facade::class,
+        'Settings' => Krucas\Settings\Facades\Settings::class,
     ],
 
 ];

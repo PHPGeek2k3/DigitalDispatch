@@ -13,7 +13,12 @@ class ServiceRequestsTypes extends Migration
      */
     public function up()
     {
-        //
+        Schema::create('service_request_types', function (Blueprint $table))
+        {
+            $table->increments('id');
+            $table->string('name');
+            $table->text('description');
+        }
     }
 
     /**
@@ -23,6 +28,6 @@ class ServiceRequestsTypes extends Migration
      */
     public function down()
     {
-        //
+        Schema::dropIfExists('service_request_types');
     }
 }

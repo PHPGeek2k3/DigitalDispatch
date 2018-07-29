@@ -13,7 +13,11 @@ class ServiceRequestsContacts extends Migration
      */
     public function up()
     {
-        //
+        Schema::create('service_requests_contacts', function (Blueprint $table)) {
+            $table->unsinged('id');
+            $table->int('request_id')->foreign_key('id');
+            $table->int('contact_id')->foriegn_key('id');
+        }
     }
 
     /**

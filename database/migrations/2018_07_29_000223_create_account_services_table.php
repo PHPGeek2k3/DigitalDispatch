@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateCreateAccountServicesTablesTable extends Migration
+class CreateAccountServicesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,7 +13,7 @@ class CreateCreateAccountServicesTablesTable extends Migration
      */
     public function up()
     {
-        Schema::create('create_account_services_tables', function (Blueprint $table) {
+        Schema::create('account_services', function (Blueprint $table) {
             $table->increments('id');
             $table->timestamps();
         });
@@ -26,6 +26,6 @@ class CreateCreateAccountServicesTablesTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('create_account_services_tables');
+        Schema::dropIfExists('account_services');
     }
 }

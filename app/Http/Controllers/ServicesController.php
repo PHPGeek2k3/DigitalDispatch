@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\create_account_services_table;
+use App\services;
 use Illuminate\Http\Request;
 
-class CreateAccountServicesTableController extends Controller
+class ServicesController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -41,10 +41,10 @@ class CreateAccountServicesTableController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\create_account_services_table  $create_account_services_table
+     * @param  \App\services  $services
      * @return \Illuminate\Http\Response
      */
-    public function show(create_account_services_table $create_account_services_table)
+    public function show(services $services)
     {
         //
     }
@@ -52,10 +52,10 @@ class CreateAccountServicesTableController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\create_account_services_table  $create_account_services_table
+     * @param  \App\services  $services
      * @return \Illuminate\Http\Response
      */
-    public function edit(create_account_services_table $create_account_services_table)
+    public function edit(services $services)
     {
         //
     }
@@ -64,10 +64,10 @@ class CreateAccountServicesTableController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\create_account_services_table  $create_account_services_table
+     * @param  \App\services  $services
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, create_account_services_table $create_account_services_table)
+    public function update(Request $request, services $services)
     {
         //
     }
@@ -75,10 +75,10 @@ class CreateAccountServicesTableController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\create_account_services_table  $create_account_services_table
+     * @param  \App\services  $services
      * @return \Illuminate\Http\Response
      */
-    public function destroy(create_account_services_table $create_account_services_table)
+    public function destroy(services $services)
     {
         //
     }

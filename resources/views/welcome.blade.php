@@ -9,6 +9,8 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/font-awesome.min.css" rel="style/css">
+
         <link href="{{ assets('css/app.css') }}" rel="stylesheet" type="text/css">
     </head>
     <body>

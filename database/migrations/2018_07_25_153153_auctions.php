@@ -13,7 +13,14 @@ class Auctions extends Migration
      */
     public function up()
     {
-        //
+        Schema::create('auctions', Blueprint $table)
+        {
+            $table->increments('id');
+            $table->datetime('auction_date');
+            $table->integer('auction_type');
+            $table->integer('auction_location');
+            $table->timestamps();
+        }
     }
 
     /**
@@ -23,6 +30,6 @@ class Auctions extends Migration
      */
     public function down()
     {
-        //
+        Schema::dropIfExists('auctions');
     }
 }

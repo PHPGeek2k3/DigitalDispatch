@@ -11,7 +11,16 @@ import VueRouter from 'vue-router';
 import Vuex from 'vuex';
 import {routes} from './routes';
 import StoreData from './store';
+import {extensions} from './store/extensions';
+import {queues} from './store/queues':
+import {calls} from './store/calls';
+import Extensions from './components/Extensions.vue';
+import Calls from './components/Calls.vue';
+import Vendors from './components/Vendors.vue';
+import ServiceRequests from './components/ServiceRequests.vue';
+import Accounts from './components/Accounts.vue';
 import MainApp from './components/MainApp.vue';
+import moment from 'moment';
 
 
 Vue.use(VueRouter);
@@ -29,6 +38,11 @@ const app = new Vue({
     router.
     store,
     compoents: {
-        MainApp
-}
+        MainApp,
+        TimeClock,
+        UserPanel,
+        extensions
+        calls,
+
+    }
 });

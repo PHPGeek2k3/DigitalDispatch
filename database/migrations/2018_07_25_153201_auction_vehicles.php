@@ -13,7 +13,15 @@ class AuctionVehicles extends Migration
      */
     public function up()
     {
-        //
+        Schema::create('auction-vehicles', Blueprint $table) {
+            $table->increments('id');
+            $table->integer('vehicle_id');
+            $table->float('current_price');
+            $table->float('opening_bid');
+            $table->integer('auction_id');
+            $table->string('status');
+            $table->timestamps();
+    }
     }
 
     /**
@@ -23,6 +31,6 @@ class AuctionVehicles extends Migration
      */
     public function down()
     {
-        //
+        Schema::dropIfExists('auction_vehicles');
     }
 }

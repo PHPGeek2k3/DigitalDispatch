@@ -13,7 +13,17 @@ class Accounts extends Migration
      */
     public function up()
     {
-        //
+        Schema::create('accounts', function (Blueprint $table)) {
+            $table->increments('id')->not_null;
+            $table->string('name');
+            $table->float('balance')->nullable();
+            $table->integer('acount_type')->references('id')->on('account_types');
+            $table->string('billing_cycle')->nullable();
+            $table->integer('user_id')->references('id')->on('users')->onUpdate('cascade');
+            $table->integer('primary_contact')->nullable();
+            $table->timestamps();
+
+        }
     }
 
     /**
@@ -23,6 +33,6 @@ class Accounts extends Migration
      */
     public function down()
     {
-        //
+        Schema:dropIfExists('accounts');
     }
 }

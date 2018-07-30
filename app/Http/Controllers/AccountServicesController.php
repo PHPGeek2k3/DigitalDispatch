@@ -2,19 +2,26 @@
 
 namespace App\Http\Controllers;
 
-use App\account_services;
+use App\AccountServices;
+use App\Accounts;
+use App\Serices;
+use App\ServiceRequestTypes as Types;
 use Illuminate\Http\Request;
 
 class AccountServicesController extends Controller
 {
+    protected $valid
     /**
      * Display a listing of the resource.
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index(Request $request)
     {
-        //
+        $acountId = $request->account_id;
+        $services = App\AccountServices->get()->where('account_id' '=>' $account->id);
+
+        return view('accounts.services', compact($acountId, $services));
     }
 
     /**
@@ -24,7 +31,9 @@ class AccountServicesController extends Controller
      */
     public function create()
     {
-        //
+        $services = Services->get()->where('active' '1');
+        $types = Types->get()->where('active' '1');
+        return view('accounts.new-service', conpact($services, $types));
     }
 
     /**
@@ -35,7 +44,7 @@ class AccountServicesController extends Controller
      */
     public function store(Request $request)
     {
-        //
+
     }
 
     /**
@@ -44,7 +53,7 @@ class AccountServicesController extends Controller
      * @param  \App\account_services  $account_services
      * @return \Illuminate\Http\Response
      */
-    public function show(account_services $account_services)
+    public function show(AccountServices $services)
     {
         //
     }
@@ -55,7 +64,7 @@ class AccountServicesController extends Controller
      * @param  \App\account_services  $account_services
      * @return \Illuminate\Http\Response
      */
-    public function edit(account_services $account_services)
+    public function edit(AccountServices $services)
     {
         //
     }
@@ -78,7 +87,7 @@ class AccountServicesController extends Controller
      * @param  \App\account_services  $account_services
      * @return \Illuminate\Http\Response
      */
-    public function destroy(account_services $account_services)
+    public function destroy(AccountServices $account_services)
     {
         //
     }
